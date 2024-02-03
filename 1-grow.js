@@ -21,6 +21,28 @@
 // console.log(grow([1, 2, 3, 4])) // 6
 // console.log(grow([4, 1, 1, 1, 4])) // 16
 
-const grow = (x) => x.reduce((acc, curr) => acc * curr, 1);
-console.log(grow([1, 2, 3, 4])); // 6
-console.log(grow([4, 1, 1, 1, 4])); // 16
+// const grow = (x) => x.reduce((acc, curr) => acc * curr, 1);
+// console.log(grow([1, 2, 3, 4])); // 6
+// console.log(grow([4, 1, 1, 1, 4])); // 16
+
+// function makeNegative(num) {
+//   if (num < 0) return num;
+//   return num * -1;
+// }
+
+// console.log(makeNegative(42));
+
+// function positiveSum(arr) {
+//   let result = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] > 0) {
+//       result += arr[i];
+//       console.log(result);
+//     }
+//   }
+//   return result;
+// }
+
+// console.log(positiveSum([1, 2, -4, -1, -3, -4]));
+
+
