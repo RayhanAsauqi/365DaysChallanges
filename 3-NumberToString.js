@@ -9,5 +9,10 @@
 
 // console.log(numberToString(12));
 
+/**
+ * Fungsi untuk mengonversi angka menjadi string.
+ * @param {number} num - Angka yang akan dikonversi menjadi string.
+ * @returns {string} - Representasi string dari angka yang diberikan.
+ */
 const numberToString = (num) => String(num);
 console.log(numberToString(4));
